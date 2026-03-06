@@ -1,6 +1,5 @@
 import random
 import time
-from inputimeout import inputimeout, TimeoutOccurred
 print("TALLES GAME!")
 print("  REMAKE")
 print(" ")
