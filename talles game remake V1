@@ -351,10 +351,6 @@ while True:
                 break
             else:
                 print("tente novamente")
-            break
-            else:
-                print("tente novamente")
-            break
     elif veiculo == "3":
         print("*você fugiu de carro")
         time.sleep(1)
@@ -469,7 +465,10 @@ while True:
                 if jogo == 7 and jogos == 7 and jogoss == 7:
                     print("VOCÊ GANHOU🏆")
                     exit()
+                elif jogo == jogos == jogoss:
+                    print("TRÊS IGUAIS!")
                 else:
+                    print("não foi dessa vez")
                     continue
             elif c == "sair":
                 break
