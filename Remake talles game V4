@@ -14,7 +14,8 @@ while True:
         break
     elif start == "exit":
         while True:
-            sair = input("deseja sair do jogo?")
+            print("deseja sair do jogo?")
+            sair = input()
             if sair == "sim":
                 exit()
                 break
@@ -23,16 +24,30 @@ while True:
             else:
                 print("*tente novamente")
     elif start == "creditos":
+        time.sleep(1)
         print("jogo original")
+        time.sleep(1)
         print("  Talles")
+        print(" ")
+        time.sleep(1)
         print("remake")
-        print("Borella")
+        time.sleep(1)
+        print("  Borella")
+        time.sleep(1)
+        print(" ")
+        print("testadores")
+        time.sleep(1)
+        print("Bosio")
+        time.sleep(1)
+        print("Lucheze")
+        time.sleep(1)
         print("")
         print("THANK YOU")
+        time.sleep(1)
         print("FOR PLAYING")
     else:
         print("*tente novamente")
-
+        continue
 print("Você está no seu quarto tarde da noite,")
 time.sleep(1)
 print("e você tem prova de matemática amanhã")
@@ -273,13 +288,14 @@ while True:
                     break
                 else:
                     print("tente novamente")
+                    continue
             elif s == "1":
                 break
             break
         break
     else:
         print("tente novamente")
-
+        continue
 print(" ")
 print("*você fugiu da escola")
 time.sleep(1)
@@ -351,6 +367,7 @@ while True:
                 break
             else:
                 print("tente novamente")
+                continue
     elif veiculo == "3":
         print("*você fugiu de carro")
         time.sleep(1)
@@ -418,7 +435,7 @@ while True:
         break
     else:
         print("tente novamente")
-
+        continue
 print("você pode escolher o seu destino")
 time.sleep(1)
 print("1- casa")
@@ -429,7 +446,7 @@ print("3- outro país")
 time.sleep(1)
 print("o que você vai fazer?")
 time.sleep(1)
-
+jo = 0
 while True:
     patinete = input()
     if patinete == "1":
@@ -453,14 +470,13 @@ while True:
         print("e 'sair' para sair")
         time.sleep(1)
         print("seu objetivo é conseguir '777'")
-        jo = 0
         while True:
             c = input()
             if c == "":
                 jogo = random.randint(3, 7)
                 jogos = random.randint(3, 7)
                 jogoss = random.randint(3, 7)
-                jo + 1
+                jo = jo + 1
                 time.sleep(1)
                 print("você jogou!")
                 print("caiu:", jogo, jogos, jogoss)
@@ -501,13 +517,5 @@ print("antes que te sequestrem")
 print("1- EUA")
 print("2- venezuela")
 print("3- voltar")
-print("você tem 10 SEGUNDOS!⚠️")
-pa = input()
+inutil = input()
 time.sleep(10) 
-while True:
-    if pa == "1":
-        print("*você foi para os EUA")
-    elif pa == "2":
-        print("*você foi para a venezuela")
-    elif pa == "3":
-        print("*você voltou")
