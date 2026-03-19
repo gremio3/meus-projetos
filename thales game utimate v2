@@ -1,0 +1,697 @@
+import random
+import time
+print("="*50)
+print("THALES GAME!".center(50))
+print("utimate".center(50))
+print("="*50)
+print("\n")
+print("[1] START".center(50))
+print("[2] CRÉDITOS".center(50))
+print("[3] EXIT".center(50))
+print("\n")
+print("="*50)
+while True:
+    print("*digite '1' para iniciar o jogo")
+    start = input()
+    if start == "1":
+        break
+    elif start == "3":
+        while True:
+            print("deseja sair do jogo?")
+            sair = input()
+            if sair == "sim":
+                exit()
+                break
+            elif sair == "nao":
+                break
+            else:
+                print("*tente novamente")
+                continue
+    elif start == "2":
+        creditosum = [
+            "",
+            "Jogo original",
+            "Thales",
+            "",
+            "Remake (demo)",
+            "Borella",
+            "",
+            "Programador",
+            "Borella",
+            "",
+            "Testadores",
+            "Bosio",
+            "Lucheze",
+            "",
+            "THANK YOU",
+            "FOR PLAYING"
+        ]
+        for linha in creditosum:
+            print(linha.center(50))
+            time.sleep(1)
+    else:
+        print("*tente novamente")
+        continue
+time.sleep(1)
+print("Você está no seu quarto tarde da noite,")
+time.sleep(1)
+print("e você tem prova de matemática amanhã")
+time.sleep(1)
+print("mas o jogo que você estava esperando a anos lançou")
+time.sleep(1)
+print("o que você vai fazer?")
+time.sleep(1)
+print("[1]- Estudar para a prova")
+time.sleep(1)
+print("[2]- Jogar o jogo!")
+time.sleep(1)
+print("o que você faz?")
+while True:
+    primeira = input()
+    if primeira == "1":
+        while True:
+            print("Você entra na escola")
+            time.sleep(1)
+            print("a professora te da a prova")
+            time.sleep(1)
+            print("*prova de português")
+            time.sleep(1)
+            print("você estudou pra matemática")
+            time.sleep(1)
+            print("[1]- você cola do aluno com retardo")
+            time.sleep(1)
+            print("[2]- você cola da aluna boa")
+            time.sleep(1)
+            print("[3]- você chuta tudo")
+            time.sleep(1)
+            print("[4]- você come a prova")
+            time.sleep(1)
+            print("o que você faz?")
+            while True:
+                prova = input()
+                if prova == "4":
+                    print(" ")
+                    print("*Você comeu a prova")
+                    time.sleep(1)
+                    print("a professora vê")
+                    time.sleep(1)
+                    print("te reprova na hora")
+                    time.sleep(1)
+                    print("você PEGOU RECUPERAÇÂO!⚠️")
+                    time.sleep(1)
+                    print("e infecçâo alimerntar")
+                    time.sleep(2)
+                    print("você morre☠️")
+                    time.sleep(1)
+                    print("==GAME OVER!👾=============================================================")
+                    time.sleep(1)
+                    print(" ")
+                    print(" ")
+                    print("-morreu de infecção alimentar")
+                    exit()
+                    break
+                elif prova == "3":
+                    print("*você chuta todas as questões")
+                    time.sleep(3)
+                    n = random.randint(1, 10)
+                    if n < 6:
+                        print("*voce tirou", n)
+                        time.sleep(1)
+                        print("você reprovou!")
+                        time.sleep(1)
+                        print("*você voltou pra casa")
+                        time.sleep(1)
+                        print("o que você faz?")
+                        time.sleep(1)
+                        print("[1]- mostra para sua mãe")
+                        time.sleep(1)
+                        print("[2]- esconder")
+                        time.sleep(1)
+                        notaprova = input()
+                        if notaprova == "1":
+                            print("sua mãe te espancou")
+                            time.sleep(2)
+                            print(" ")
+                            print("==GAME OVER👾=====================================================")
+                            time.sleep(1)
+                            print(" ")
+                            print(" ")
+                            print("-morreu espancado pela sua mãe")
+                            exit()
+                            break
+                        elif notaprova == "2":
+                            print("*você escondeu a sua nota")
+                            time.sleep(1)
+                            print("sua mãe não achou!")
+                            time.sleep(1)
+                            print("mas sua irmã de dedurou")
+                            time.sleep(1)
+                            print("sua mãe te espancou")
+                            time.sleep(2)
+                            print("==GAME OVER👾======================================================")
+                            time.sleep(1)
+                            print(" ")
+                            print(" ")
+                            print("-morreu espancado pela sua mãe")
+                            exit()
+                            break
+                        else:
+                            print("tente novamente")
+                    elif n == 6:
+                        print("*você tirou", n)
+                        time.sleep(1)
+                        print("você se safou porpouco")
+                        time.sleep(1)
+                        print("==VOCÊ GANHOU!🏆=======================================================")
+                        time.sleep(1)
+                        print(" ")
+                        print(" ")
+                        print("parabés!!")
+                        print("*final ruim")
+                        time.sleep(1)
+                        exit()
+                        break
+                    elif n > 6:
+                        print("você tirou", n, "!")
+                        time.sleep(1)
+                        print("você passou!")
+                        time.sleep(1)
+                        print("==VOCÊ GANHOU!🏆=======================================================")
+                        time.sleep(1)
+                        print(" ")
+                        print(" ")
+                        print("parabés!!")
+                        print("*final ruim")
+                        time.sleep(1)
+                        exit()
+                        break
+                    else:
+                        print("sla bugou aí")
+                        time.sleep(1)
+                        print("tenta dnv")
+                        continue
+                elif prova == "2":
+                    print("*você cola da aluna boa")
+                    time.sleep(1)
+                    print("mas diferente de você ela jogou o jogo e não estudou")
+                    time.sleep(1)
+                    print("vocês dois reprovaram")
+                    time.sleep(1)
+                    print(" ")
+                    print("sua mãe te espancou")
+                    time.sleep(1)
+                    print(" ")
+                    print("==GAME OVER👾==============================================================")
+                    time.sleep(1)
+                    print(" ")
+                    print(" ")
+                    print("-morreu espancado pela sua mãe")
+                    exit()
+                    break
+                elif prova == "1":
+                    print("*Você colou do aluno retardado")
+                    time.sleep(2)
+                    print(" você tirou 10")
+                    time.sleep(1)
+                    print("Mas a professora te viu")
+                    time.sleep(1)
+                    print("Você sai correndo do colégio")
+                    time.sleep(1)
+                    break
+                break
+            break
+        break
+    elif primeira == "2":
+        print("*você jogou o jogo!")
+        time.sleep(1)
+        print("Foi o melhor jogo da sua vida ")
+        time.sleep(1)
+        print("virou a noite jogando")
+        time.sleep(1)
+        print("")
+        print("*no outro dia")
+        time.sleep(1)
+        print("você sabe que vai reprovar")
+        time.sleep(1)
+        print("[1]- fugir da escola")
+        time.sleep(1)
+        print("[2]- tentar fazer a prova")
+        time.sleep(1)
+        print("o que você faz?")
+        s = input()
+        while True:
+            if s == "2":
+                print("*você tentou fazer a prova")
+                time.sleep(1)
+                print("mas reprovou miseravelmente")
+                time.sleep(1)
+                print("você reprovou!")
+                time.sleep(1)
+                print("*você voltou pra casa")
+                time.sleep(1)
+                print("o que você faz?")
+                time.sleep(1)
+                print("[1]- mostra para sua mãe")
+                time.sleep(1)
+                print("[2]- esconder")
+                time.sleep(1)
+                notaprovas = input()
+                if notaprovas == "1":
+                    print("sua mãe te espancou")
+                    time.sleep(1)
+                    print("==GAME OVER👾===========================================================")
+                    time.sleep(1)
+                    print(" ")
+                    print(" ")
+                    print("-morreu espancado pela sua mãe")
+                    exit()
+                    break
+                elif notaprovas == "2":
+                    print("*você escondeu a sua nota")
+                    time.sleep(2)
+                    print("sua mãe não achou!")
+                    time.sleep(1)
+                    print("mas sua irmã de dedurou")
+                    time.sleep(1)
+                    print("sua mãe te espancou")
+                    time.sleep(1)
+                    print("==GAME OVER👾==============================================================")
+                    print(" ")
+                    print(" ")
+                    print("-morreu espancado pela sua mãe")
+                    exit()
+                    break
+                else:
+                    print("tente novamente")
+                    continue
+            elif s == "1":
+                break
+            break
+        break
+    else:
+        print("tente novamente")
+        continue
+print("*você fugiu da escola")
+time.sleep(1)
+print("corra antes que a professora te pegue!")
+time.sleep(1)
+print("[1]- fugir a pé")
+time.sleep(1)
+print("[2]- fugir de patinete elétrico")
+time.sleep(1)
+print("[3]- fugir de carro")
+time.sleep(1)
+print("[4]- fugir de avião")
+time.sleep(1)
+print("o que você vai fazer?")
+while True:
+    veiculo = input()
+    if veiculo == "1":
+        print("você fugiu a pé")
+        time.sleep(1)
+        print("não foi suficiente")
+        time.sleep(1)
+        print("a professora te pegou")
+        time.sleep(1)
+        print("[1]- se entregar")
+        time.sleep(1)
+        print("[2]- voadora")
+        voadora = input()
+        while True:
+            if voadora == "1":
+                print("*você se entregou")
+                time.sleep(1)
+                print("ela te reprovou na hora")
+                time.sleep(1)
+                print("sua mãe te espancou")
+                time.sleep(1)
+                print("==GAME OVER👾==================================================================")
+                time.sleep(1)
+                print(" ")
+                print(" ")
+                print("-morreu espancado pela sua mãe")
+                exit()
+            elif voadora == "2":
+                print("*você deu uma voadora na professora")
+                time.sleep(1)
+                print(" ")
+                print("ela morreu☠️...")
+                time.sleep(1)
+                print(" ")
+                print("os policiais viram a situação")
+                time.sleep(1)
+                print("te prenderam na hora")
+                time.sleep(1)
+                print("você apodreceu para o resto da vida na cadeia")
+                time.sleep(1)
+                print(" ")
+                print("  GAME OVER")
+                time.sleep(1)
+                print(" ")
+                print(" ")
+                print("-morreu de velhice na cadeia por matar a professora")
+                time.sleep(1)
+                print(" ")
+                print("⚠️ATENÇÃO!! NÃO REPITA ISSO EM CASA ⚠️")
+                exit()
+                break
+            else:
+                print("tente novamente")
+                continue
+    elif veiculo == "3":
+        print("*você fugiu de carro")
+        time.sleep(1)
+        print("mas é um mero adolecete e nao sabe dirigir um carro")
+        time.sleep(2)
+        print("você beteu em um posto Ipiranga")
+        time.sleep(2)
+        print("a gasolina vazou...")
+        time.sleep(2)
+        print(" ")
+        print("oposto expludiu...")
+        time.sleep(2)
+        print(" ")
+        print("todos morreram...")
+        time.sleep(2)
+        print(" ")
+        print("==GAME OVER👾==========================================================================")
+        time.sleep(1)
+        print(" ")
+        print(" ")
+        print("-morreu por explosão no posto Ipiranga")
+        exit()
+        break
+    elif veiculo == "4":
+        print("*você fugiu de avião")
+        time.sleep(1)
+        print("[1] ilha de milionário")
+        time.sleep(1)
+        print("[2]- atentado as torres trigemeas")
+        time.sleep(1)
+        print("para onde você vai?")
+        aviao = input()
+        while True:
+            if aviao == "1":
+                print("você foi para a ilha de um milionário")
+                time.sleep(1)
+                print("la você foi adotado e ficou lá para o resto da vida")
+                time.sleep(1)
+                print("==VOCÊ GANHOU🏆===============================================================")
+                time.sleep(1)
+                print(" ")
+                print(" ")
+                print("-final bunda")
+                exit()
+                break
+            elif aviao == "2":
+                print("*você participou do atentado as torres trigemes")
+                time.sleep(1)
+                print("você bateu na primeira torre...")
+                time.sleep(1)
+                print("ela caiu...")
+                time.sleep(2)
+                print("você morreu...")
+                time.sleep(1)
+                print("==GAME OVER👾==================================================================")
+                time.sleep(1)
+                print(" ")
+                print(" ")
+                print("-final incrivel")
+                exit()
+                break
+            else:
+                print("tente novamente")
+    elif veiculo == "2":
+        print("*você fugiu de patinete elétrico")
+        break
+    else:
+        print("tente novamente")
+        continue
+time.sleep(1)
+print("você pode escolher o seu destino")
+time.sleep(1)
+print("[1]- casa")
+time.sleep(1)
+print("[2]- cassino (pode voltar)")
+time.sleep(1)
+print("[3]- outro país")
+time.sleep(1)
+print("o que você vai fazer?")
+time.sleep(1)
+jo = 0
+while True:
+    patinete = input()
+    if patinete == "1":
+        print("você é burro?")
+        time.sleep(1)
+        print("óbvio que vai dar ruim")
+        time.sleep(1)
+        print("faz dnv isso")
+        time.sleep(1)
+        continue
+    elif patinete == "3":
+        break
+    elif patinete == "2":
+        print("você entrou em um cassino")
+        time.sleep(1)
+        print("mesmo sendo menor de idade te deixaram entrar")
+        time.sleep(1)
+        print(" ")
+        print("digite enter para jogar ")
+        time.sleep(1)
+        print("e 'sair' para sair")
+        time.sleep(1)
+        print("seu objetivo é conseguir '777'")
+        while True:
+            c = input()
+            if c == "":
+                jogo = random.randint(4, 7)
+                jogos = random.randint(4, 7)
+                jogoss = random.randint(4, 7)
+                jo = jo + 1
+                print("você jogou!")
+                print("caiu:", jogo, jogos, jogoss)
+                if jo > 10:
+                    print("você gastou até o seu último centavo no cassino")
+                    print(" ")
+                    time.sleep(1)
+                    while True:
+                        print("vocêperdeu todo o seu dinheiro no cassino")
+                        time.sleep(1)
+                        print("mas tem um agiota no beco")
+                        time.sleep(1)
+                        print("[1]- negocioar com o agiota")
+                        time.sleep(1)
+                        print("[2]- ignorar")
+                        time.sleep(1)
+                        print("o que você faz?")
+                        agiota = input()
+                        if agita == "2":
+                            print("*você o ignorou")
+                            time.sleep(1)
+                            print("mas como estava sem dinheiro nao conseguiu voltar pra casa")
+                            time.sleep(1)
+                            print("você passou o resto de suas vidas nas ruas")
+                            time.sleep(1)
+                            print("a professora até passou por ti mas não te reconheceu")
+                            time.sleep(1)
+                            print("você é oficialmente um mendigo")
+                            time.sleep(1)
+                            print("não sei como você sobreviveu por tanto tempo nessas condições")
+                            print("o cassino já nem existe mais")
+                            time.sleep(1)
+                            print("você chegou aos 90 anos sendo um mendigo")
+                            time.sleep(1)
+                            print("mas o mundo começou uma 3° gerra mundial")
+                            time.sleep(1)
+                            print("*um homem encapuzado se aproxima")
+                            time.sleep(1)
+                            print("[1]- quem é você?")
+                            time.sleep(1)
+                            print("[2]- moço pode me ajudar?")
+                            while True:
+                                time.sleep(1)
+                                print("o que você faz?")
+                                sandro = input()
+                                if sandro == "1":
+                                    print("-quem é você?")
+                                    time.sleep(1)
+                                    print("sou o sandro viajante do tempo")
+                                    time.sleep(1)
+                                    print("*ele te apaga")
+                                    time.sleep(1)
+                                    print("==GAME OVER👾=============================================")
+                                    time.sleep(1)
+                                    print(" ")
+                                    print(" ")
+                                    print("-???")
+                                    time.sleep(1)
+                                    print("(final secret)")
+                                    exit()
+                                elif sandro == "2":
+                                     print("-moço você pode me ajudar?")
+                                     time.sleep(1)
+                                     print("ele se aproxima e utiliza de um equipamento desconhecido")
+                                     time.sleep(1)
+                                     print("você apaga...")
+                                     time.sleep(1)
+                                     print("e acorda em um lugar completamente preto")
+                                     time.sleep(1)
+                                     print("e envelhece até morrer...")
+                                     time.sleep(1)
+                                     print("==GAME OVER================================================")
+                                     time.sleep(1)
+                                     print(" ")
+                                     print(" ")
+                                     print("-???")
+                                     exit()
+                                else:
+                                    print("tente novamente")
+                                    continue
+                        elif agiota == "1":
+                            print("você se aproxima do agiota")
+                            time.sleep(1)
+                            print("ele te oferece imortalidade,")
+                            print("mas para isso você teria que assinar um contrato que faria você mudar de identidade para sandro")
+                            print("e teria que juntar todas as suas próprias versões do todos os multiversos")
+                elif jogo == 7 and jogos == 7 and jogoss == 7:
+                    print("VOCÊ GANHOU🏆==============================================================")
+                    exit()
+                elif jogo == jogos == jogoss:
+                    print("TRÊS IGUAIS!")
+                else:
+                    print("não foi dessa vez")
+                    continue
+            elif c == "sair":
+                print("você pode escolher o seu destino")
+                time.sleep(1)
+                print("[1]- casa")
+                time.sleep(1)
+                print("[2]- cassino (pode voltar)")
+                time.sleep(1)
+                print("[3]- outro país")
+                time.sleep(1)
+                print("o que você vai fazer?")
+                time.sleep(1)
+                break
+    else:
+        print("tente novamente")
+        continue
+print("*você fugiu do país")
+time.sleep(1)
+print("atualmente você esta no Paraguai")
+time.sleep(1)
+print("escolha outro país RÁPIDO")
+time.sleep(1)
+print("antes que te sequestrem")
+time.sleep(1)
+print("1- EUA")
+time.sleep(1)
+print("2- venezuela")
+time.sleep(1)
+print("3- voltar")
+time.sleep(1)
+print("o que você vai fazer")
+inutil = input()
+time.sleep(2)
+print(" ")
+print("pera...")
+time.sleep(2)
+print("*você foi capturado por uma facção paraguaia")
+time.sleep(3)
+print("você esta amarrado em uma cadeira em uma sala escura")
+time.sleep(4)
+print("o lider da facção entra na sala...")
+time.sleep(3)
+print("é a sua professora...")
+time.sleep(4)
+print("-você acha mesmo que iria conseguir escapar?")
+time.sleep(4)
+print("-você ja escapou diversas vezes")
+time.sleep(3)
+print("-mas isso acaba hoje!")
+time.sleep(2)
+print("-Thales!")
+time.sleep(5)
+print("*a professora se retira da sala")
+time.sleep(2)
+print("RAPíDO! escolha algo que pode te ajudar a escapar!")
+time.sleep(1)
+print("[1]- canivete")
+time.sleep(1)
+print("[2]- Isqueiro")
+time.sleep(1)
+print("[3]- tesoura")
+time.sleep(1)
+print("o que você faz?")
+time.sleep(1)
+ferramenta = input()
+while True:
+    if ferramenta == "1":
+        print("*você usou o canivete para cortar a corda")
+        time.sleep(2)
+        print("como você continua sendo um mero adolecente")
+        time.sleep(2)
+        print("você se cortou...")
+        time.sleep(2)
+        print("continuou mesmo assim")
+        time.sleep(2)
+        print("ameaçou os capangas com o canivete e escapou")
+        time.sleep(2)
+        print("mas devido aos sangramentos você não durou muito andando...")
+        time.sleep(2)
+        print("e morreu no meio do caminho...")
+        time.sleep(3)
+        print(" ")
+        print("==GAME OVER👾==========================================================================")
+        time.sleep(2)
+        print(" ")
+        print(" ")
+        print("-você morreu devido aos sangramentos enquanto fugia do paraguai")
+        exit()
+        break
+    elif ferramenta == "2":
+        print("*você usou o Isqueiro para queimar a corda")
+        time.sleep(2)
+        print("você se soltou...")
+        time.sleep(2)
+        print("o fogo está saindo de controle...")
+        time.sleep(2)
+        print("em pouco tempo o lugar está em chamas...")
+        time.sleep(2)
+        print("tudo e todos que estavam lá dentro morreram...(até a professora)")
+        time.sleep(2)
+        print("você moreu...")
+        time.sleep(2)
+        print("mas pera...")
+        time.sleep(2)
+        print("tem alguém emergindo dos destroços...")
+        time.sleep(2)
+        print("é você...")
+        time.sleep(2)
+        print("você sobreviveu...")
+        time.sleep(2)
+        print("-I ALWAYS COME BACK")
+        time.sleep(2)
+        print("*absolute cinema")
+        time.sleep(2)
+        break
+    elif ferramenta == "3":
+        print(" ")
+        print("*você usou a tesoura do seu estojo para escapar da corda")
+        time.sleep(1)
+        print("você ameaça os capangas com a tesoura escolar e consegue fugir de alguma forma")
+        break
+    else:
+        print("tente novamente")
+        continue
+time.sleep(1)
+creditos = [
+    "",
+    "THALES GAME",
+    "utimate"
+]
+for linha in creditos:
+    print(linha.center(50))
+    time.sleep(1)
+time.sleep(10)
