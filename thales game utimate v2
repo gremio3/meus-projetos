@@ -1,3 +1,17 @@
+from time import sleep
+from ev3dev2.motor import OUTPUT_A, OUTPUT_D, MoveTank
+from ev3dev2.sensor.lego import ColorSensor, UltrasonicSensor, GyroSensor
+from ev3dev2.sensor import INPUT_2, INPUT_4, INPUT_1, INPUT_3
+
+
+
+
+
+
+
+
+
+
 import random
 import time
 print("="*50)
