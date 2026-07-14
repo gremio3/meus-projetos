@@ -1,0 +1,127 @@
+import time 
+import random
+
+def jogar():
+    while True:
+            print("*digite sua resposta")
+            jdn = input()
+            if jdn == "não":
+                exit()
+            elif jdn == "sim":
+                break
+            else:
+                 print("digite algo coerente")
+                 continue
+def linha():
+    for linha in introdução:
+        print(linha.center(50))
+        time.sleep(1)
+while True: 
+    print("="*50)
+    print("DE A BUNDA".center(50))
+    print("The Game".center(50))
+    print("\n")
+    print("[1]START  ".center(50))
+    print("[2]QUIT   ".center(50))
+    print("[3]CREDITS".center(50))
+    print("\n")
+    print("*digite o número correspondente".center(50))
+    print("="*50)
+    while True:
+        niger = input()
+        if niger == "1":
+            break
+        elif niger == "2":
+            exit()
+        elif niger == "3":
+            time.sleep(1)
+            creditos = [
+            "",
+            "DE A BUNDA",
+            "The Game",
+            "",
+            "",
+            "desenvolvedor indie:",
+            "Enzo B."
+            ]
+            linha()
+            time.sleep(5)
+            print("*digite o número correspondente".center(50))
+            continue
+        else:
+            print("*digite o um número coerente".center(50))
+            continue
+    time.sleep(1)
+    introdução = [
+    "",
+    "você está em uma sala escura",
+    "com uma luz fraquicima",
+    "a única coisa que é possível enxergar",
+    "são duas cadeiras",
+    " ",
+    "uma com um bolo", 
+    "a outra com uma pika",
+    "",
+    "você vai ter q sentar em uma e fazer algo com a outra",
+    "faça sua escolha",
+    "",
+    "[1]sentar na pika e comer o bolo",
+    "[2]sentar no bolo e mamar a pika"
+    ]
+    linha()
+    while True:
+        print("digite um número")
+        escolha = input()
+        if escolha == "1":      
+                print("")
+                print("você fez a escolha correta".center(50))
+                time.sleep(1)
+                print("não tem discução".center(50))
+                time.sleep(1)
+                print("você já teria que fazer algo com a pika nas duas opções".center(50))
+                time.sleep(1)
+                print("a diferença que nessa você ganha bolo".center(50))
+                time.sleep(1)
+                print("="*50)
+                time.sleep(1)   
+                print("\n")
+                print("VOCÊ VENCEU".center(50))
+                time.sleep(2)
+                print("+50 pontos".center(50))
+                print("\n")
+                print("\n")
+                time.sleep(1)
+                print("jogar denovo?".center(50))
+                time.sleep(1)
+                print("[SIM] [NÃO]".center(50))
+                print("="*50)
+                jogar()
+        elif escolha == "2":
+            print("")
+            print("você fez a escolha errada".center(50))
+            time.sleep(1)
+            print("não tem discução".center(50))
+            time.sleep(1)
+            print("você já teria que fazer algo com a pika nas duas opções".center(50))
+            time.sleep(1)
+            print("a diferença que nessa você não ganha bolo".center(50))
+            time.sleep(1)
+            print("="*50)
+            print("\n")
+            time.sleep(1)
+            print("VOCÊ PERDEU".center(50))
+            time.sleep(2)
+            print("-50 pontos".center(50))
+            time.sleep(1)
+            print("\n")
+            print("\n")
+            print("jogar denovo?".center(50))
+            time.sleep(1)
+            print("[SIM] [NÃO]".center(50))
+            print("="*50)
+            jogar()
+        else:
+            print("digite algo coerente".center(50))
+            continue
+        break
+    continue
